@@ -1,0 +1,7 @@
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.csprojResolveAssemblyReference.cache

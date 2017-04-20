@@ -1,0 +1,12 @@
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\bin\Debug\netcoreapp1.1\Planru.NCBlog.Web.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\bin\Debug\netcoreapp1.1\Planru.NCBlog.Web.runtimeconfig.json
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\bin\Debug\netcoreapp1.1\Planru.NCBlog.Web.runtimeconfig.dev.json
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\obj\Debug\netcoreapp1.1\Planru.NCBlog.Web.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\obj\Debug\netcoreapp1.1\Planru.NCBlog.Web.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\bin\Debug\netcoreapp1.1\Planru.NCBlog.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\bin\Debug\netcoreapp1.1\Planru.NCBlog.Web.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\obj\Debug\netcoreapp1.1\Planru.NCBlog.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Web\obj\Debug\netcoreapp1.1\Planru.NCBlog.Web.pdb

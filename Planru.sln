@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planru.Domain.Core", "Planru.Domain.Core\Planru.Domain.Core.csproj", "{E5A71BBD-21F5-4603-A0E8-71EA59519F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{4F1F4CB0-BD80-45E2-A76F-CAAFDD55CAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planru.NCBlog.Domain", "Planru.NCBlog.Domain\Planru.NCBlog.Domain.csproj", "{3E3FC905-E897-4EFB-9FA0-1D7555DB2BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planru.NCBlog.Application", "Planru.NCBlog.Application\Planru.NCBlog.Application.csproj", "{B3203216-F509-4299-B9A2-FAF2BC65575C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planru.NCBlog.Persistence", "Planru.NCBlog.Persistence\Planru.NCBlog.Persistence.csproj", "{20FDCB32-D293-43E4-B201-6E87FE39C6BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{53361B70-19A2-4231-B244-2538F46C7A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planru.CrossCutting.Identity", "Planru.CrossCutting.Identity\Planru.CrossCutting.Identity.csproj", "{613755DD-E4CC-4133-B415-1C243BA02A1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NBlog", "NBlog", "{6271A5AA-B7B6-41F7-8EFA-148DBD6B768F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planru.NCBlog.Web", "Planru.NCBlog.Web\Planru.NCBlog.Web.csproj", "{9F7C73A8-12AA-4F66-B0FE-92FA17092024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5A71BBD-21F5-4603-A0E8-71EA59519F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A71BBD-21F5-4603-A0E8-71EA59519F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A71BBD-21F5-4603-A0E8-71EA59519F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A71BBD-21F5-4603-A0E8-71EA59519F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3FC905-E897-4EFB-9FA0-1D7555DB2BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3FC905-E897-4EFB-9FA0-1D7555DB2BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3FC905-E897-4EFB-9FA0-1D7555DB2BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3FC905-E897-4EFB-9FA0-1D7555DB2BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3203216-F509-4299-B9A2-FAF2BC65575C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3203216-F509-4299-B9A2-FAF2BC65575C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3203216-F509-4299-B9A2-FAF2BC65575C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3203216-F509-4299-B9A2-FAF2BC65575C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FDCB32-D293-43E4-B201-6E87FE39C6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FDCB32-D293-43E4-B201-6E87FE39C6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FDCB32-D293-43E4-B201-6E87FE39C6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FDCB32-D293-43E4-B201-6E87FE39C6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613755DD-E4CC-4133-B415-1C243BA02A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613755DD-E4CC-4133-B415-1C243BA02A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613755DD-E4CC-4133-B415-1C243BA02A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613755DD-E4CC-4133-B415-1C243BA02A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7C73A8-12AA-4F66-B0FE-92FA17092024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7C73A8-12AA-4F66-B0FE-92FA17092024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7C73A8-12AA-4F66-B0FE-92FA17092024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7C73A8-12AA-4F66-B0FE-92FA17092024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5A71BBD-21F5-4603-A0E8-71EA59519F64} = {4F1F4CB0-BD80-45E2-A76F-CAAFDD55CAD4}
+		{3E3FC905-E897-4EFB-9FA0-1D7555DB2BBF} = {6271A5AA-B7B6-41F7-8EFA-148DBD6B768F}
+		{B3203216-F509-4299-B9A2-FAF2BC65575C} = {6271A5AA-B7B6-41F7-8EFA-148DBD6B768F}
+		{20FDCB32-D293-43E4-B201-6E87FE39C6BC} = {6271A5AA-B7B6-41F7-8EFA-148DBD6B768F}
+		{613755DD-E4CC-4133-B415-1C243BA02A1B} = {53361B70-19A2-4231-B244-2538F46C7A20}
+		{9F7C73A8-12AA-4F66-B0FE-92FA17092024} = {6271A5AA-B7B6-41F7-8EFA-148DBD6B768F}
+	EndGlobalSection
+EndGlobal
