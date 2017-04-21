@@ -1,0 +1,13 @@
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.MSSQL.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.MSSQL.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.MSSQL.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.Domain.Core.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.NCBlog.Domain.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.Domain.Core.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\bin\Debug\netcoreapp1.1\Planru.NCBlog.Domain.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.MSSQL.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.MSSQL.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.MSSQL.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Persistence.EFCore.MSSQL\obj\Debug\netcoreapp1.1\Planru.NCBlog.Persistence.EFCore.MSSQL.pdb

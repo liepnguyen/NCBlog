@@ -8167,10 +8167,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Persistence\\Planru.NCBlog.Persistence.EFCore.MSSQL.csproj",
+      "projectUniqueName": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Persistence.EFCore.MSSQL\\Planru.NCBlog.Persistence.EFCore.MSSQL.csproj",
       "projectName": "Planru.NCBlog.Persistence.EFCore.MSSQL",
-      "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Persistence\\Planru.NCBlog.Persistence.EFCore.MSSQL.csproj",
-      "outputPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Persistence\\obj\\",
+      "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Persistence.EFCore.MSSQL\\Planru.NCBlog.Persistence.EFCore.MSSQL.csproj",
+      "outputPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Persistence.EFCore.MSSQL\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
