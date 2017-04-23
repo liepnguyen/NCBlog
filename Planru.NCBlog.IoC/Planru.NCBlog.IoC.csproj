@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="5.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Planru.NCBlog.Application\Planru.NCBlog.Application.csproj" />
+    <ProjectReference Include="..\Planru.NCBlog.Domain\Planru.NCBlog.Domain.csproj" />
+    <ProjectReference Include="..\Planru.NCBlog.Persistence.EFCore.MSSQL\Planru.NCBlog.Persistence.EFCore.MSSQL.csproj" />
+    <ProjectReference Include="..\Planru.NCBlog.Persistence.EFCore\Planru.NCBlog.Persistence.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

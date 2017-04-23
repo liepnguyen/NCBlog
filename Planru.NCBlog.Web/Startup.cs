@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Planru.Intrastructure.Identity.Data;
 using Planru.Intrastructure.Identity.Models;
 using Planru.Intrastructure.Identity.Services;
+using Planru.NCBlog.IoC;
 
 namespace Planru.NCBlog.Web
 {
@@ -79,6 +80,11 @@ namespace Planru.NCBlog.Web
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            InjectorBootstrapper.RegisterServices(services);
         }
     }
 }

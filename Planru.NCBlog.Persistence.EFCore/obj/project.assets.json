@@ -7787,6 +7787,7 @@
     ".NETCoreApp,Version=v1.1": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 1.1.1",
       "Microsoft.NETCore.App >= 1.1.1",
+      "Planru.Domain.Core >= 1.0.0",
       "Planru.NCBlog.Domain >= 1.0.0"
     ]
   },
@@ -7809,6 +7810,9 @@
           "projectReferences": {
             "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Domain\\Planru.NCBlog.Domain.csproj": {
               "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Domain\\Planru.NCBlog.Domain.csproj"
+            },
+            "D:\\Projects\\NCBlog\\NCBlog\\Planru.Domain.Core\\Planru.Domain.Core.csproj": {
+              "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.Domain.Core\\Planru.Domain.Core.csproj"
             }
           }
         }

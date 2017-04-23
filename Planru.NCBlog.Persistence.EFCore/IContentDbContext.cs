@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Planru.Domain.Core.Models;
 using Planru.NCBlog.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,7 @@ namespace Planru.NCBlog.Persistence.EFCore
         DbSet<Category> Categories { get; set; }
         ChangeTracker ChangeTracker { get; }
         DatabaseFacade Database { get; }
+        DbSet<TEntity> Set<TEntity>() where TEntity: class;
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken));
     }
 }

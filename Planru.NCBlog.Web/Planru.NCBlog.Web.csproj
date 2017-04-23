@@ -45,6 +45,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Planru.Intrastructure.Identity\Planru.Intrastructure.Identity.csproj" />
     <ProjectReference Include="..\Planru.NCBlog.Application\Planru.NCBlog.Application.csproj" />
+    <ProjectReference Include="..\Planru.NCBlog.IoC\Planru.NCBlog.IoC.csproj" />
   </ItemGroup>
 
 </Project>

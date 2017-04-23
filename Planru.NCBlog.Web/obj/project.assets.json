@@ -4303,6 +4303,39 @@
           "Microsoft.NETCore.App": "1.1.1",
           "Planru.Domain.Core": "1.0.0"
         }
+      },
+      "Planru.NCBlog.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "AutoMapper": "5.2.0",
+          "Microsoft.EntityFrameworkCore": "1.1.1",
+          "Microsoft.Extensions.DependencyInjection": "1.1.0",
+          "Microsoft.NETCore.App": "1.1.1",
+          "Planru.NCBlog.Application": "1.0.0",
+          "Planru.NCBlog.Domain": "1.0.0",
+          "Planru.NCBlog.Persistence.EFCore": "1.0.0",
+          "Planru.NCBlog.Persistence.EFCore.MSSQL": "1.0.0"
+        }
+      },
+      "Planru.NCBlog.Persistence.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
+          "Microsoft.NETCore.App": "1.1.1",
+          "Planru.Domain.Core": "1.0.0",
+          "Planru.NCBlog.Domain": "1.0.0"
+        }
+      },
+      "Planru.NCBlog.Persistence.EFCore.MSSQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "1.1.1",
+          "Microsoft.NETCore.App": "1.1.1",
+          "Planru.NCBlog.Persistence.EFCore": "1.0.0"
+        }
       }
     }
   },
@@ -11058,6 +11091,21 @@
       "type": "project",
       "path": "../Planru.NCBlog.Domain/Planru.NCBlog.Domain.csproj",
       "msbuildProject": "../Planru.NCBlog.Domain/Planru.NCBlog.Domain.csproj"
+    },
+    "Planru.NCBlog.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Planru.NCBlog.IoC/Planru.NCBlog.IoC.csproj",
+      "msbuildProject": "../Planru.NCBlog.IoC/Planru.NCBlog.IoC.csproj"
+    },
+    "Planru.NCBlog.Persistence.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../Planru.NCBlog.Persistence.EFCore/Planru.NCBlog.Persistence.EFCore.csproj",
+      "msbuildProject": "../Planru.NCBlog.Persistence.EFCore/Planru.NCBlog.Persistence.EFCore.csproj"
+    },
+    "Planru.NCBlog.Persistence.EFCore.MSSQL/1.0.0": {
+      "type": "project",
+      "path": "../Planru.NCBlog.Persistence.EFCore.MSSQL/Planru.NCBlog.Persistence.EFCore.MSSQL.csproj",
+      "msbuildProject": "../Planru.NCBlog.Persistence.EFCore.MSSQL/Planru.NCBlog.Persistence.EFCore.MSSQL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11079,7 +11127,8 @@
       "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 1.1.0",
       "Planru.Intrastructure.Identity >= 1.0.0",
-      "Planru.NCBlog.Application >= 1.0.0"
+      "Planru.NCBlog.Application >= 1.0.0",
+      "Planru.NCBlog.IoC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11104,6 +11153,9 @@
             },
             "D:\\Projects\\NCBlog\\NCBlog\\Planru.Intrastructure.Identity\\Planru.Intrastructure.Identity.csproj": {
               "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.Intrastructure.Identity\\Planru.Intrastructure.Identity.csproj"
+            },
+            "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.IoC\\Planru.NCBlog.IoC.csproj": {
+              "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.IoC\\Planru.NCBlog.IoC.csproj"
             }
           }
         }
