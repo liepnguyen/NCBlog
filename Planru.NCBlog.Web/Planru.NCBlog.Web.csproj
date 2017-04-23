@@ -43,7 +43,8 @@
     <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Planru.CrossCutting.Identity\Planru.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\Planru.Intrastructure.Identity\Planru.Intrastructure.Identity.csproj" />
+    <ProjectReference Include="..\Planru.NCBlog.Application\Planru.NCBlog.Application.csproj" />
   </ItemGroup>
 
 </Project>

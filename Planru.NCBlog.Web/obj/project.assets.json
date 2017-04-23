@@ -2,6 +2,23 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
+      "AutoMapper/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1",
+          "NETStandard.Library": "1.6.0",
+          "System.Collections.Specialized": "4.0.1",
+          "System.ComponentModel.TypeConverter": "4.1.0",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Linq.Queryable": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/AutoMapper.dll": {}
+        }
+      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -2352,7 +2369,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Collections.Specialized.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.Specialized.dll": {}
@@ -4253,7 +4270,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Planru.CrossCutting.Identity/1.0.0": {
+      "Planru.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        }
+      },
+      "Planru.Intrastructure.Identity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
@@ -4262,10 +4286,42 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1"
         }
+      },
+      "Planru.NCBlog.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "AutoMapper": "5.2.0",
+          "Microsoft.NETCore.App": "1.1.1",
+          "Planru.NCBlog.Domain": "1.0.0"
+        }
+      },
+      "Planru.NCBlog.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1",
+          "Planru.Domain.Core": "1.0.0"
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/5.2.0": {
+      "sha512": "ulUMmzFg1vAFMpTyJsplgnC7pOIFlb25dbldHd7J4eroQWjSV4iAoOQ33h1oMjf6mLo3uZ8aRNUN2rgpOeSE1w==",
+      "type": "package",
+      "path": "automapper/5.2.0",
+      "files": [
+        "automapper.5.2.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.xml",
+        "lib/netstandard1.1/AutoMapper.dll",
+        "lib/netstandard1.1/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.xml"
+      ]
+    },
     "Libuv/1.9.1": {
       "sha512": "uqX2Frwf9PW8MaY7PRNY6HM5BpW1D8oj1EdqzrmbEFD5nH63Yat3aEjN/tws6Tw6Fk7LwmLBvtUh32tTeTaHiA==",
       "type": "package",
@@ -10983,10 +11039,25 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Planru.CrossCutting.Identity/1.0.0": {
+    "Planru.Domain.Core/1.0.0": {
       "type": "project",
-      "path": "../Planru.CrossCutting.Identity/Planru.CrossCutting.Identity.csproj",
-      "msbuildProject": "../Planru.CrossCutting.Identity/Planru.CrossCutting.Identity.csproj"
+      "path": "../Planru.Domain.Core/Planru.Domain.Core.csproj",
+      "msbuildProject": "../Planru.Domain.Core/Planru.Domain.Core.csproj"
+    },
+    "Planru.Intrastructure.Identity/1.0.0": {
+      "type": "project",
+      "path": "../Planru.Intrastructure.Identity/Planru.Intrastructure.Identity.csproj",
+      "msbuildProject": "../Planru.Intrastructure.Identity/Planru.Intrastructure.Identity.csproj"
+    },
+    "Planru.NCBlog.Application/1.0.0": {
+      "type": "project",
+      "path": "../Planru.NCBlog.Application/Planru.NCBlog.Application.csproj",
+      "msbuildProject": "../Planru.NCBlog.Application/Planru.NCBlog.Application.csproj"
+    },
+    "Planru.NCBlog.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Planru.NCBlog.Domain/Planru.NCBlog.Domain.csproj",
+      "msbuildProject": "../Planru.NCBlog.Domain/Planru.NCBlog.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11007,7 +11078,8 @@
       "Microsoft.NETCore.App >= 1.1.1",
       "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 1.1.0",
-      "Planru.CrossCutting.Identity >= 1.0.0"
+      "Planru.Intrastructure.Identity >= 1.0.0",
+      "Planru.NCBlog.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11027,8 +11099,11 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "D:\\Projects\\NCBlog\\NCBlog\\Planru.CrossCutting.Identity\\Planru.CrossCutting.Identity.csproj": {
-              "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.CrossCutting.Identity\\Planru.CrossCutting.Identity.csproj"
+            "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Application\\Planru.NCBlog.Application.csproj": {
+              "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.NCBlog.Application\\Planru.NCBlog.Application.csproj"
+            },
+            "D:\\Projects\\NCBlog\\NCBlog\\Planru.Intrastructure.Identity\\Planru.Intrastructure.Identity.csproj": {
+              "projectPath": "D:\\Projects\\NCBlog\\NCBlog\\Planru.Intrastructure.Identity\\Planru.Intrastructure.Identity.csproj"
             }
           }
         }

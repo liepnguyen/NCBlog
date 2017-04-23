@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Planru.CrossCutting.Identity.Models.ManageViewModels;
-using Planru.CrossCutting.Identity.Models;
-using Planru.CrossCutting.Identity.Services;
+using Planru.Intrastructure.Identity.Models.ManageViewModels;
+using Planru.Intrastructure.Identity.Services;
+using Planru.Intrastructure.Identity.Models;
 
 namespace Planru.NCBlog.Web.Controllers
 {
