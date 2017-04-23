@@ -1,7 +1,0 @@
-D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.deps.json
-D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.dll
-D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.csprojResolveAssemblyReference.cache
-D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.AssemblyInfo.cs
-D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.pdb
-D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.dll
-D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.pdb
