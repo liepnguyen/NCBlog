@@ -5,6 +5,7 @@ using System.Text;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Planru.Domain.Core.Models;
+using System.Linq;
 
 namespace Planru.NCBlog.Persistence.EFCore
 {
@@ -20,44 +21,45 @@ namespace Planru.NCBlog.Persistence.EFCore
             DbSet = Db.Set<TEntity>();
         }
 
-        public void Add(TEntity obj)
+        public virtual void Add(TEntity obj)
         {
-            throw new NotImplementedException();
+            DbSet.Add(obj);
         }
 
-        public void Dispose()
+        public virtual TEntity GetById(Guid id)
         {
-            throw new NotImplementedException();
+            return DbSet.Find(id);
+        }
+
+        public virtual IEnumerable<TEntity> GetAll()
+        {
+            return DbSet.ToList();
+        }
+
+        public virtual void Update(TEntity obj)
+        {
+            DbSet.Update(obj);
+        }
+
+        public virtual void Remove(Guid id)
+        {
+            DbSet.Remove(DbSet.Find(id));
         }
 
         public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<TEntity> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public TEntity GetById(Guid id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Remove(Guid id)
-        {
-            throw new NotImplementedException();
+            return DbSet.AsNoTracking().Where(predicate);
         }
 
         public int SaveChanges()
         {
-            throw new NotImplementedException();
+            return Db.SaveChanges();
         }
 
-        public void Update(TEntity obj)
+        public void Dispose()
         {
-            throw new NotImplementedException();
+            Db.Dispose();
+            GC.SuppressFinalize(this);
         }
     }
 }
