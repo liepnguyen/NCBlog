@@ -15,6 +15,12 @@
   <ItemGroup>
     <None Remove="jhamsgij.c3x~" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\less\mixins.less" />
+    <Content Include="wwwroot\less\sb-admin-2.less" />
+    <Content Include="wwwroot\less\variables.less" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="5.2.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="2.0.1" />
@@ -40,6 +46,8 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Home\" />
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />

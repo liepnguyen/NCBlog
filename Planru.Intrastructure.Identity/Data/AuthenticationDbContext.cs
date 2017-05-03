@@ -8,9 +8,9 @@ using Planru.Intrastructure.Identity.Models;
 
 namespace Planru.Intrastructure.Identity.Data
 {
-    public class IndentityDbContext : IdentityDbContext<ApplicationUser>
+    public class AuthenticationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public IndentityDbContext(DbContextOptions<IndentityDbContext> options)
+        public AuthenticationDbContext(DbContextOptions<AuthenticationDbContext> options)
             : base(options)
         {
         }

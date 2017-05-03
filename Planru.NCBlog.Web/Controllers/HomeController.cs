@@ -4,14 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Planru.NCBlog.Application.Interfaces;
+using Planru.NCBlog.Persistence.EFCore;
 
 namespace Planru.NCBlog.Web.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController(IBlogAppService blogAppService)
-        {
+        private IContentDbContext _contentDataContext;
 
+        public HomeController(IContentDbContext dataContext)
+        {
+            _contentDataContext = dataContext;
         }
 
         public IActionResult Index()
