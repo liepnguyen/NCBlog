@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Planru.IdentityServer.WebAPI": {
+    "Planru.IdentityServer.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

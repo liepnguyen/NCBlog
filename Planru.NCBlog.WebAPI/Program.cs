@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Planru.IdentityServer.WebAPI
+namespace Planru.NCBlog.WebAPI
 {
     public class Program
     {
