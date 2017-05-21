@@ -8,8 +8,8 @@ using IdentityServer4.EntityFramework.DbContexts;
 namespace Planru.IdentityServer.Web.Migrations.PersistedGrantDb
 {
     [DbContext(typeof(PersistedGrantDbContext))]
-    [Migration("20170521043045_CreatePersistedGrantSchema")]
-    partial class CreatePersistedGrantSchema
+    [Migration("20170521075530_CreateIdentityServer4PersistedGrantSchema")]
+    partial class CreateIdentityServer4PersistedGrantSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -8,8 +8,8 @@ using IdentityServer4.EntityFramework.DbContexts;
 namespace Planru.IdentityServer.Web.Migrations.ConfigurationDb
 {
     [DbContext(typeof(ConfigurationDbContext))]
-    [Migration("20170521043548_CreateConfigurationSchema")]
-    partial class CreateConfigurationSchema
+    [Migration("20170521075359_CreateIdentityServer4ConfigurationSchema")]
+    partial class CreateIdentityServer4ConfigurationSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

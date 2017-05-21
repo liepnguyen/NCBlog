@@ -8,7 +8,7 @@ using Planru.Intrastructure.Identity.Data;
 namespace Planru.IdentityServer.Web.Migrations
 {
     [DbContext(typeof(AuthenticationDbContext))]
-    [Migration("20170521042348_CreateIdentitySchema")]
+    [Migration("20170521075008_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Planru.IdentityServer.Web.Migrations.ConfigurationDb
 {
-    public partial class CreateConfigurationSchema : Migration
+    public partial class CreateIdentityServer4ConfigurationSchema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

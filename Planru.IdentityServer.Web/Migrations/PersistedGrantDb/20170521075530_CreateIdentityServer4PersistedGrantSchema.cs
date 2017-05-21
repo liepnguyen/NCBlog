@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Planru.IdentityServer.Web.Migrations.PersistedGrantDb
 {
-    public partial class CreatePersistedGrantSchema : Migration
+    public partial class CreateIdentityServer4PersistedGrantSchema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

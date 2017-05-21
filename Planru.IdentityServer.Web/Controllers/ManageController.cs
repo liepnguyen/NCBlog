@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Planru.Intrastructure.Identity.Models.ManageViewModels;
-using Planru.Intrastructure.Identity.Services;
+using Planru.IdentityServer.Web.Models.ManageViewModels;
 using Planru.Intrastructure.Identity.Models;
+using Planru.Intrastructure.Identity.Services;
 
 namespace Planru.IdentityServer.Web.Controllers
 {

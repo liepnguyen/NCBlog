@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Planru.Intrastructure.Identity.Models;
-using Planru.Intrastructure.Identity.Models.AccountViewModels;
+using Planru.IdentityServer.Web.Models.AccountViewModels;
 using Planru.Intrastructure.Identity.Services;
+using Planru.Intrastructure.Identity.Models;
 
 namespace Planru.IdentityServer.Web.Controllers
 {

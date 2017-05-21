@@ -1,31 +1,38 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using System.Reflection;
 using Planru.Intrastructure.Identity.Models;
 using Planru.Intrastructure.Identity.Data;
-using System.Threading.Tasks;
-using IdentityServer4.EntityFramework.DbContexts;
-using System.Linq;
-using IdentityServer4.EntityFramework.Mappers;
-using Microsoft.AspNetCore.Identity;
 using Planru.Intrastructure.Identity.Services;
+using Microsoft.AspNetCore.Identity;
+using IdentityServer4.EntityFramework.DbContexts;
+using IdentityServer4.EntityFramework.Mappers;
 
 namespace Planru.IdentityServer.Web
 {
-    public partial class Startup
+    public class Startup
     {
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-                .AddEnvironmentVariables();
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
+
+            if (env.IsDevelopment())
+            {
+                // For more details on using the user secret store see https://go.microsoft.com/fwlink/?LinkID=532709
+                builder.AddUserSecrets<Startup>();
+            }
+
+            builder.AddEnvironmentVariables();
             Configuration = builder.Build();
             DefaultConnectionString = Configuration.GetConnectionString("DefaultConnection");
             MigrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
@@ -46,13 +53,6 @@ namespace Planru.IdentityServer.Web
                 .AddEntityFrameworkStores<AuthenticationDbContext>()
                 .AddDefaultTokenProviders();
 
-            // Add framework services.
-            services.AddMvc();
-
-            // Add application services.
-            services.AddTransient<IEmailSender, AuthMessageSender>();
-            services.AddTransient<ISmsSender, AuthMessageSender>();
-
             // configure identity server with in-memory users, but EF stores for clients and scopes
             services.AddIdentityServer()
                 .AddTemporarySigningCredential() // used for testing until a real cert is available
@@ -61,6 +61,12 @@ namespace Planru.IdentityServer.Web
                 .AddOperationalStore(option =>
                     option.UseSqlServer(DefaultConnectionString, sqlServerOptions => sqlServerOptions.MigrationsAssembly(MigrationsAssembly)))
                 .AddAspNetIdentity<ApplicationUser>();
+
+            services.AddMvc();
+
+            // Add application services.
+            services.AddTransient<IEmailSender, AuthMessageSender>();
+            services.AddTransient<ISmsSender, AuthMessageSender>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -88,7 +94,7 @@ namespace Planru.IdentityServer.Web
 
             app.UseIdentity();
 
-            app.UseIdentityServer();
+            // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
 
             app.UseMvc(routes =>
             {
