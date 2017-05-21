@@ -94,6 +94,8 @@ namespace Planru.IdentityServer.Web
 
             app.UseIdentity();
 
+            app.UseIdentityServer();
+
             // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
 
             app.UseMvc(routes =>
@@ -116,7 +118,7 @@ namespace Planru.IdentityServer.Web
                 persistedGrantDbContext.Database.Migrate();
                 configurationDbContext.Database.Migrate();
 
-                if (configurationDbContext.Clients.Any())
+                if (!configurationDbContext.Clients.Any())
                 {
                     foreach (var client in Config.GetClients())
                     {

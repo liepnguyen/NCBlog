@@ -2,11 +2,13 @@
 using IdentityServer4;
 using IdentityServer4.Models;
 using System.Collections.Generic;
+using static IdentityServer4.IdentityServerConstants;
 
 namespace Planru.IdentityServer.Web
 {
     public class Config
-    {// scopes define the resources in your system
+    {
+        // scopes define the resources in your system
         public static IEnumerable<IdentityResource> GetIdentityResources()
         {
             return new List<IdentityResource>
@@ -21,7 +23,7 @@ namespace Planru.IdentityServer.Web
             return new[]
             {
                 new ApiResource(
-                    "NCBlog",
+                    "NBlog",
                     ".Net Core Blog",
                     new[] { JwtClaimTypes.Name, JwtClaimTypes.Role, "office" })
             };
@@ -36,15 +38,12 @@ namespace Planru.IdentityServer.Web
                 // resource owner password grant client
                 new Client
                 {
-                    ClientId = "ro.client",
-                    ClientName = "Resource Owner Client",
+                    ClientId = "nblog",
+                    ClientName = "NBlog website",
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
-
-                    ClientSecrets =
-                    {
-                        new Secret("secret".Sha256())
-                    },
-                    AllowedScopes = { "NCBlog", IdentityServerConstants.StandardScopes.OfflineAccess }
+                    RequireClientSecret = false,
+                    AllowOfflineAccess = true, // Enables refresh token
+                    AllowedScopes = { "NBlog", StandardScopes.OfflineAccess }
                 }
             };
         }
