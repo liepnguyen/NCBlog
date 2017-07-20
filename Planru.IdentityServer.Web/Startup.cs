@@ -14,6 +14,8 @@ using Planru.Intrastructure.Identity.Services;
 using Microsoft.AspNetCore.Identity;
 using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Mappers;
+using System.Security.Cryptography.X509Certificates;
+using System.IO;
 
 namespace Planru.IdentityServer.Web
 {
@@ -55,7 +57,8 @@ namespace Planru.IdentityServer.Web
 
             // configure identity server with in-memory users, but EF stores for clients and scopes
             services.AddIdentityServer()
-                .AddTemporarySigningCredential() // used for testing until a real cert is available
+                //.AddTemporarySigningCredential() // used for testing until a real cert is available
+                .AddSigningCredential(new X509Certificate2(Path.Combine("..", "certs", "IdentityServer4Auth.pfx")))
                 .AddConfigurationStore(option =>
                     option.UseSqlServer(DefaultConnectionString, sqlServerOptions => sqlServerOptions.MigrationsAssembly(MigrationsAssembly)))
                 .AddOperationalStore(option =>

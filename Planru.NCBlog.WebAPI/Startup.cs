@@ -36,12 +36,12 @@ namespace Planru.NCBlog.WebAPI
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            var certLocation = Path.Combine("..", "..", "certs", "IdentityServer4Auth.cer");
+            var certLocation = Path.Combine("..", "certs", "IdentityServer4Auth.cer");
             var tokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuerSigningKey = true,
                 ValidateIssuer = true,
-                ValidIssuer = "http://localhost:5000",
+                ValidIssuer = "http://localhost:60905",
                 IssuerSigningKey = new X509SecurityKey(new X509Certificate2(certLocation))
             };
 
@@ -49,9 +49,9 @@ namespace Planru.NCBlog.WebAPI
             {
                 // Don't set authority since the issuing authority may not be available at run-time.
                 // Instead, a valid issuer and signing key will be specified in token validation parameters
-                // Authority = "http://localhost:5000/",
+                // Authority = "http://localhost:60904/",
 
-                Audience = "myAPIs",
+                Audience = "http://localhost:60905/resources",
                 AutomaticAuthenticate = true,
                 RequireHttpsMetadata = false,    // Set only for development scenarios - not in production
                 TokenValidationParameters = tokenValidationParameters
