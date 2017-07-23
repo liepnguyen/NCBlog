@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
     styleUrls: ['./recent-post-widget.component.css', '../widget.component.css']
 })
 export class RecentPostWidgetComponent {
+    constructor() {
+
+    }
 }

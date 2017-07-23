@@ -3,7 +3,7 @@ import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './components/app/app.component'
-import { BlogItemComponent } from './components/blog-item/blog-item.component';
+import { PostItemComponent } from './components/post-item/post-item.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { HomeComponent } from './components/home/home.component';
@@ -16,7 +16,7 @@ export const sharedConfig: NgModule = {
     bootstrap: [ AppComponent ],
     declarations: [
         AppComponent,
-        BlogItemComponent,
+        PostItemComponent,
         CounterComponent,
         FetchDataComponent,
         HomeComponent,

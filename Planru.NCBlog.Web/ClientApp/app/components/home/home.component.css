@@ -1,0 +1,83 @@
+﻿.topic-background {
+  background-size: cover;
+}
+
+/* topic content  */
+.topic-content {
+  position: absolute;
+  bottom: 30px;
+  padding: 0 30px;
+}
+
+.topic-content .title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 26px;
+}
+
+.topic-content .description {
+  font-size: 18px;
+  line-height: 1.4em;
+  font-weight: normal;
+  margin: 0;
+}
+/* /topic content  */
+
+/* topic code  */
+.topic-code {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),url(//static.tutsplus.com/assets/home/heros/code-5d3f431c814dd7e81127c76b94679ed6.jpg);
+}
+.topic-code .topic-content .title {
+  color: #4cc1be;
+}
+
+.topic-code .topic-content .description {
+  color: #fff;
+}
+/* /topic code  */
+
+/* topic code  */
+.topic-webdesign {
+  background-color: #2ecc71;
+}
+.topic-webdesign .topic-content .title {
+  color: #4cc1be;
+}
+
+.topic-webdesign .topic-content .description {
+  color: #fff;
+}
+/* /topic code  */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .topic-code {
+    height: 600px;
+  }
+
+  .topic-webdesign {
+    height: 250px;
+  }
+
+  .topic-design-illustration {
+    height: 350px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

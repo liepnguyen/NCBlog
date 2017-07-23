@@ -18,4 +18,9 @@ nav {
     max-height: none;
     transition: .3s padding ease-in-out;
     text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+a.nav-link:hover {
+    background-color: #009688;
 }
