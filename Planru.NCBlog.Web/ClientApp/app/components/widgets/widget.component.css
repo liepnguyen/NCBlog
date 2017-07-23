@@ -1,0 +1,22 @@
+.widget-sidebar {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.title-widget-sidebar {
+    font-size: 14pt;
+    border-bottom: 2px solid #e5ebef;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+    .title-widget-sidebar:after {
+        border-bottom: 2px solid #f1c40f;
+        width: 150px;
+        display: block;
+        position: absolute;
+        content: '';
+        padding-bottom: 10px;
+    }

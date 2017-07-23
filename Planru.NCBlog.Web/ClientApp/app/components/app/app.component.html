@@ -1,11 +1,16 @@
 <nav-bar></nav-bar>
-<div class='container-fluid'>
-    <div class='row'>
-        <div class='col-sm-3'>
-            <!--<nav-menu></nav-menu>-->
-        </div>
-        <div class='col-sm-9 body-content'>
-            <router-outlet></router-outlet>
+<div class="body-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <router-outlet></router-outlet>
+            </div>
+            <div class="col-sm-4">
+                <recent-post-widget></recent-post-widget>
+                <categories-widget></categories-widget>
+                <archieves-widget></archieves-widget>
+                <newletter-widget></newletter-widget>
+            </div>
         </div>
     </div>
 </div>

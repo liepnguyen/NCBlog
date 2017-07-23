@@ -1,22 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './components/app/app.component'
-import { NavMenuComponent } from './components/navmenu/navmenu.component';
-import { NavBarComponent } from './components/navbar/navbar.component';
-import { HomeComponent } from './components/home/home.component';
-import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
+import { BlogItemComponent } from './components/blog-item/blog-item.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
+import { HomeComponent } from './components/home/home.component';
+import { NavBarComponent } from './components/navbar/navbar.component';
+import { NavMenuComponent } from './components/navmenu/navmenu.component';
+
+import { WIDGET_COMPONENTS } from './components/widgets';
 
 export const sharedConfig: NgModule = {
     bootstrap: [ AppComponent ],
     declarations: [
         AppComponent,
-        NavMenuComponent,
-        NavBarComponent,
+        BlogItemComponent,
         CounterComponent,
         FetchDataComponent,
-        HomeComponent
+        HomeComponent,
+        NavBarComponent,
+        NavMenuComponent,
+        ...WIDGET_COMPONENTS
     ],
     imports: [
         RouterModule.forRoot([
@@ -25,6 +31,7 @@ export const sharedConfig: NgModule = {
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
             { path: '**', redirectTo: 'home' }
-        ])
+        ]),
+        NgbModule.forRoot()
     ]
 };
