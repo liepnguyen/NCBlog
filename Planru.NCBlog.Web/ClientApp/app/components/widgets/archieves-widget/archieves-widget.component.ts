@@ -14,7 +14,7 @@ export class ArchievesWidgetComponent implements OnInit {
             panel.style.maxHeight = null;
         } else {
             panel.style.maxHeight = panel.scrollHeight + "px";
-        } 
+        }
     }
 
     ngOnInit() {

@@ -3,7 +3,7 @@
 @Component({
     selector: 'nav-bar',
     templateUrl: './navbar.component.html',
-    styleUrls: ['./navbar.component.css']
+    styleUrls: ['./navbar.component.scss']
 })
 export class NavBarComponent implements OnInit {
     ngOnInit() {
