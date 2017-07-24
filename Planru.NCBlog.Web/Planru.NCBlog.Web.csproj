@@ -19,6 +19,12 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="wwwroot\dist\styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClientApp\app\shared\services\" />
     <Folder Include="ClientApp\assets\" />
   </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">
