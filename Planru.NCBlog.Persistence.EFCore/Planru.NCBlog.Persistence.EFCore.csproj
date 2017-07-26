@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Planru.CrossCutting.Identity\Planru.CrossCutting.Identity.csproj" />
     <ProjectReference Include="..\Planru.Domain.Core\Planru.Domain.Core.csproj" />
     <ProjectReference Include="..\Planru.NCBlog.Domain\Planru.NCBlog.Domain.csproj" />
   </ItemGroup>

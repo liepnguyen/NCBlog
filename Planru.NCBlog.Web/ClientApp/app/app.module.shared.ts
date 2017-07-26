@@ -1,36 +1,39 @@
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './components/app/app.component'
 import { PostItemComponent } from './components/post-item/post-item.component';
-import { CounterComponent } from './components/counter/counter.component';
-import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavBarComponent } from './components/navbar/navbar.component';
-import { NavMenuComponent } from './components/navmenu/navmenu.component';
 
 import { WIDGET_COMPONENTS } from './components/widgets';
+import { AppLayoutComponent, AdminLayoutComponent } from './shared/components/layouts';
+
+const APP_ROUTES: Routes = [
+    { path: '', component: HomeComponent },
+]
+
+const ADMIN_ROUTES: Routes = [
+]
 
 export const sharedConfig: NgModule = {
     bootstrap: [ AppComponent ],
     declarations: [
         AppComponent,
         PostItemComponent,
-        CounterComponent,
-        FetchDataComponent,
         HomeComponent,
         NavBarComponent,
-        NavMenuComponent,
+        AppLayoutComponent,
+        AdminLayoutComponent,
         ...WIDGET_COMPONENTS
     ],
     imports: [
         RouterModule.forRoot([
             { path: '', redirectTo: 'home', pathMatch: 'full' },
-            { path: 'home', component: HomeComponent },
-            { path: 'counter', component: CounterComponent },
-            { path: 'fetch-data', component: FetchDataComponent },
-            { path: '**', redirectTo: 'home' }
+            { path: 'home', component: AppLayoutComponent, children: APP_ROUTES },
+            { path: 'admin', component: AdminLayoutComponent, children: APP_ROUTES },
+            { path: '**', redirectTo: 'home' },
         ]),
         NgbModule.forRoot()
     ]

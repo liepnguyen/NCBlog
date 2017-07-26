@@ -25,7 +25,7 @@ namespace Planru.IdentityServer.Web
                 new ApiResource(
                     "NBlog",
                     ".Net Core Blog",
-                    new[] { JwtClaimTypes.Name, JwtClaimTypes.Role, "office" })
+                    new[] { JwtClaimTypes.Name, JwtClaimTypes.Role, "office", JwtClaimTypes.rol })
             };
         }
 

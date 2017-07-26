@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Planru.CrossCutting.Identity;
 using Planru.NCBlog.Domain.Models;
-using System;
 
 namespace Planru.NCBlog.Persistence.EFCore
 {
-    public class ContentDbContextBase : DbContext, IContentDbContext
+    public class ContentDbContextBase : CustomIdentityDbContext, IContentDbContext
     {
         public ContentDbContextBase(DbContextOptions options) : base(options)
         {

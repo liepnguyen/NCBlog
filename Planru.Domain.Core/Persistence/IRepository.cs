@@ -7,10 +7,10 @@ namespace Planru.Domain.Core.Persistence
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : class
     {
-        void Add(TEntity obj);
+        void Add(TEntity entity);
         TEntity GetById(Guid id);
         IEnumerable<TEntity> GetAll();
-        void Update(TEntity obj);
+        void Update(TEntity entity);
         void Remove(Guid id);
         IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
         int SaveChanges();

@@ -8,6 +8,7 @@ namespace Planru.NCBlog.Persistence.EFCore.MSSQL
     {
         public ContentDbContext(DbContextOptions options) : base(options)
         {
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
