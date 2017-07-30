@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNet.Security.OpenIdConnect.Primitives" Version="1.0.1" />
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="7.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="1.1.3" />
+
+    <PackageReference Include="OpenIddict" Version="1.0.0-beta2-0614" />
+    <PackageReference Include="OpenIddict.Mvc" Version="1.0.0-beta2-0614" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="1.0.0-beta2-0614" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Planru.CrossCutting.Identity\Planru.CrossCutting.Identity.csproj" />
+  </ItemGroup>
+
+</Project>
