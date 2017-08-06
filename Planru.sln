@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Planru.CrossCutting.Identit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Planru.CrossCutting.Identity.Web", "Planru.CrossCutting.Identity.Web\Planru.CrossCutting.Identity.Web.csproj", "{18EEB802-CA2C-4DD6-B5DC-446F98B1899F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planru.CrossCutting.Bus", "Planru.CrossCutting.Bus\Planru.CrossCutting.Bus.csproj", "{A7555CA5-83D9-4568-94DF-D17E38F93F6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{18EEB802-CA2C-4DD6-B5DC-446F98B1899F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18EEB802-CA2C-4DD6-B5DC-446F98B1899F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18EEB802-CA2C-4DD6-B5DC-446F98B1899F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7555CA5-83D9-4568-94DF-D17E38F93F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7555CA5-83D9-4568-94DF-D17E38F93F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7555CA5-83D9-4568-94DF-D17E38F93F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7555CA5-83D9-4568-94DF-D17E38F93F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +82,6 @@ Global
 		{40DD9D78-8F92-4898-BDBD-03B0B1457F10} = {6271A5AA-B7B6-41F7-8EFA-148DBD6B768F}
 		{91DE145A-E052-45CF-926A-00BBFA30CC5C} = {4F1F4CB0-BD80-45E2-A76F-CAAFDD55CAD4}
 		{18EEB802-CA2C-4DD6-B5DC-446F98B1899F} = {4F1F4CB0-BD80-45E2-A76F-CAAFDD55CAD4}
+		{A7555CA5-83D9-4568-94DF-D17E38F93F6A} = {4F1F4CB0-BD80-45E2-A76F-CAAFDD55CAD4}
 	EndGlobalSection
 EndGlobal

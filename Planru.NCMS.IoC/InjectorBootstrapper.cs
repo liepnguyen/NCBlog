@@ -1,7 +1,10 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Planru.CrossCutting.Identity.Core;
+using Planru.CrossCutting.Identity.Core.Interfaces;
+using Planru.CrossCutting.Identity.Models;
 using Planru.NCBlog.Persistence.EFCore;
-using Microsoft.EntityFrameworkCore;
 
 namespace Planru.NCBlog.IoC
 {
@@ -9,8 +12,13 @@ namespace Planru.NCBlog.IoC
     {
         public static void RegisterServices(IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<ContentDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IAccountManager, AccountManager>((serviceProvider) => 
+            {
+                return new AccountManager(
+                    serviceProvider.GetService<ContentDbContext>(),
+                    serviceProvider.GetService<UserManager<ApplicationUser>>(),
+                    serviceProvider.GetService<RoleManager<ApplicationRole>>()); 
+            });
 
             // Application
             //services.AddSingleton(Mapper.Configuration);

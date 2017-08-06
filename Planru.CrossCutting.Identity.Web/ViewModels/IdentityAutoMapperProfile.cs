@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Planru.CrossCutting.Identity.Web
 {
-    public class AutoMapperProfile : Profile
+    public class IdentityAutoMapperProfile : Profile
     {
-        public AutoMapperProfile()
+        public IdentityAutoMapperProfile()
         {
             CreateMap<ApplicationUser, UserViewModel>()
                 .ForMember(d => d.Roles, map => map.Ignore())
