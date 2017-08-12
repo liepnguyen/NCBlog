@@ -1,0 +1,11 @@
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\bin\Debug\netcoreapp1.1\Planru.NCBlog.Application.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\bin\Debug\netcoreapp1.1\Planru.NCBlog.Application.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\bin\Debug\netcoreapp1.1\Planru.NCBlog.Application.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\bin\Debug\netcoreapp1.1\Planru.Domain.Core.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\bin\Debug\netcoreapp1.1\Planru.NCBlog.Domain.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\bin\Debug\netcoreapp1.1\Planru.NCBlog.Domain.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\bin\Debug\netcoreapp1.1\Planru.Domain.Core.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\obj\Debug\netcoreapp1.1\Planru.NCBlog.Application.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\obj\Debug\netcoreapp1.1\Planru.NCBlog.Application.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\obj\Debug\netcoreapp1.1\Planru.NCBlog.Application.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCBlog.Application\obj\Debug\netcoreapp1.1\Planru.NCBlog.Application.pdb

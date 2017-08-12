@@ -1,0 +1,9 @@
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Bus.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Bus.dll
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Bus.pdb
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\bin\Debug\netcoreapp1.1\Planru.Domain.Core.dll
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\bin\Debug\netcoreapp1.1\Planru.Domain.Core.pdb
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Bus.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Bus.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Bus.dll
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Bus\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Bus.pdb

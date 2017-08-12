@@ -1,0 +1,9 @@
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.Web.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.Web.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.Web.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.dll
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.pdb
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.Web.pdb
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.CrossCutting.Identity.Web\obj\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.Web.pdb

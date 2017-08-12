@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -36,7 +37,7 @@ namespace Planru.NCMS.WebAPI
         {
             services.AddDbContext<ContentDbContext>(options =>
             {
-                options.UseSqlServer(Configuration["Data:DefaultConnection:ConnectionString"], b => b.MigrationsAssembly("Planru.NCMS.Web"));
+                options.UseSqlServer(Configuration["Data:DefaultConnection:ConnectionString"], b => b.MigrationsAssembly("Planru.NCMS.WebAPI"));
                 options.UseOpenIddict();
             });
 
@@ -119,12 +120,24 @@ namespace Planru.NCMS.WebAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IDatabaseInitializer databaseInitializer)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
+            app.UseOAuthValidation();
+            app.UseOpenIddict();
+
             app.UseMvc();
+
+            try
+            {
+                databaseInitializer.SeedAsync().Wait();
+            }
+            catch
+            {
+                throw;
+            }
         }
     }
 }

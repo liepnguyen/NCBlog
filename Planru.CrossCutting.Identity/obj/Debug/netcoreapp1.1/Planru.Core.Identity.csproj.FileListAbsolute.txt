@@ -1,0 +1,7 @@
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity\bin\Debug\netcoreapp1.1\Planru.Core.Identity.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity\bin\Debug\netcoreapp1.1\Planru.Core.Identity.dll
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity\bin\Debug\netcoreapp1.1\Planru.Core.Identity.pdb
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity\obj\Debug\netcoreapp1.1\Planru.Core.Identity.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity\obj\Debug\netcoreapp1.1\Planru.Core.Identity.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity\obj\Debug\netcoreapp1.1\Planru.Core.Identity.dll
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity\obj\Debug\netcoreapp1.1\Planru.Core.Identity.pdb

@@ -20,6 +20,8 @@ namespace Planru.NCBlog.IoC
                     serviceProvider.GetService<RoleManager<ApplicationRole>>()); 
             });
 
+            services.AddTransient<IDatabaseInitializer, DatabaseInitializer>();
+
             // Application
             //services.AddSingleton(Mapper.Configuration);
             //services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));

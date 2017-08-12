@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "planru.ncblog.domain/1.0.0": {
+        "dependencies": {
+          "Planru.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Planru.NCBlog.Domain.dll": {}
+        }
+      },
+      "planru.domain.core/1.0.0": {
+        "runtime": {
+          "Planru.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "planru.ncblog.domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "planru.domain.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

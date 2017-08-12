@@ -34,11 +34,6 @@
     <Folder Include="ClientApp\assets\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Planru.CrossCutting.Identity.Web\Planru.CrossCutting.Identity.Web.csproj" />
-    <ProjectReference Include="..\Planru.NCMS.IoC\Planru.NCMS.IoC.csproj" />
-    <ProjectReference Include="..\Planru.NCMS.Persistence.EFCore\Planru.NCMS.Persistence.EFCore.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Update="ClientApp\app\shared\components\layouts\admin-layout\admin-layout.component.ts">
       <DependentUpon>admin-layout.component.html</DependentUpon>
     </None>

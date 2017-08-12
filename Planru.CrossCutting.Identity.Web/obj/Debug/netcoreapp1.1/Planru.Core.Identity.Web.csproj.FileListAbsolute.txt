@@ -1,0 +1,17 @@
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.Web.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.Web.pdb
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.pdb
+D:\Projects\NCBlog\NCBlog\Planru.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.dll
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.Web.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\obj\Debug\netcoreapp1.1\Planru.Core.Identity.Web.pdb
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.Web.dll
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.Web.pdb
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.dll
+D:\Projects\NCBlog\NCBlog\Planru.Core.Identity.Web\bin\Debug\netcoreapp1.1\Planru.Core.Identity.pdb

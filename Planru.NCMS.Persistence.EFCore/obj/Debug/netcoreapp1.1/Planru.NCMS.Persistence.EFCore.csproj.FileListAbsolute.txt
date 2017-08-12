@@ -1,0 +1,13 @@
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.NCMS.Persistence.EFCore.deps.json
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.NCMS.Persistence.EFCore.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.NCMS.Persistence.EFCore.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.Domain.Core.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.NCMS.Domain.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.CrossCutting.Identity.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.Domain.Core.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\bin\Debug\netcoreapp1.1\Planru.NCMS.Domain.pdb
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\obj\Debug\netcoreapp1.1\Planru.NCMS.Persistence.EFCore.csprojResolveAssemblyReference.cache
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\obj\Debug\netcoreapp1.1\Planru.NCMS.Persistence.EFCore.AssemblyInfo.cs
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\obj\Debug\netcoreapp1.1\Planru.NCMS.Persistence.EFCore.dll
+D:\Projects\NCBlog\NCBlog\Planru.NCMS.Persistence.EFCore\obj\Debug\netcoreapp1.1\Planru.NCMS.Persistence.EFCore.pdb
