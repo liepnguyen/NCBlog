@@ -1,0 +1,35 @@
+<div>
+  <app-page-header [heading]="'Users'" [icon]="'fa-user'"></app-page-header>
+  <ngx-datatable class="light"
+    [rows]="rows"
+    [columns]="columns"
+    [columnMode]="'force'"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    [rowHeight]="'auto'"
+    [selected]="selected"
+    [selectionType]="'checkbox'"
+    (select)='onSelect($event)'
+  >
+    <ngx-datatable-column name="Username">
+      <ng-template let-value="value" ngx-datatable-cell-template>
+        {{value}}
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Name">
+      <ng-template let-row="row" let-value="value" ngx-datatable-cell-template>
+        {{value}}
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Email">
+      <ng-template let-row="row" let-value="value" ngx-datatable-cell-template>
+        {{value}}
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Roles">
+      <ng-template let-row="row" let-value="value" ngx-datatable-cell-template>
+        {{value}}
+      </ng-template>
+    </ngx-datatable-column>
+  </ngx-datatable>
+</div>
